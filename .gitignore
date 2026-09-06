@@ -1,0 +1,42 @@
+# Sequencing data and analysis outputs never belong in git.
+# Keep them under /work/class/bme282.2026/<username>/ instead.
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.bai
+*.cram
+*.crai
+*.sam
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+*.bcf
+*.fa
+*.fa.gz
+*.fasta
+*.fasta.gz
+*.fai
+*.gtf.gz
+*.gff3.gz
+*.h5
+*.h5ad
+*.loom
+*.rds
+*.mtx
+*.mtx.gz
+
+# Pipeline working directories and logs
+results/
+work/
+.nextflow*
+nohup.out
+*.log
+
+# Environments and editors
+.venv/
+__pycache__/
+.Rhistory
+.RData
+.DS_Store
